@@ -18,8 +18,9 @@ jobs:
   build:
     runs-on: ubuntu-latest
     env:
-      # Set this to '/<repo-name>' if you're deploying to a project page
-      # (e.g. https://<user>.github.io/<repo>/). Leave empty for user/org sites.
+      # Repo is at github.com/likhith1542/OpsNotes
+      # Site lives at https://likhith1542.github.io/OpsNotes/
+      # So basePath must be '/OpsNotes'
       NEXT_PUBLIC_BASE_PATH: '/OpsNotes'
     steps:
       - uses: actions/checkout@v4
