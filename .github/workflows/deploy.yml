@@ -20,7 +20,7 @@ jobs:
     env:
       # Set this to '/<repo-name>' if you're deploying to a project page
       # (e.g. https://<user>.github.io/<repo>/). Leave empty for user/org sites.
-      NEXT_PUBLIC_BASE_PATH: ''
+      NEXT_PUBLIC_BASE_PATH: '/OpsNotes'
     steps:
       - uses: actions/checkout@v4
 
